@@ -4,5 +4,5 @@ from class_shapeObject import ShapeObject
 
 
 
-objname = classname()
-objname.method()
+sO = ShapeObject()
+sO.width()
