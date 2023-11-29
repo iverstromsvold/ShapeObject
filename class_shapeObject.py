@@ -40,17 +40,3 @@ class ShapeObject:
             return True
         else:
             return False
-
-
-shapeObject_ = ShapeObject(7, 8)
-square = shapeObject_.get_square()
-isValid = shapeObject_.validate_square(square)
-if isValid == True:
-    print('Square is Valid!')
-else:
-    print('Square is not Valid!')
-
-# shapeObject_.set_diameter(4)
-# print(shapeObject_.get_diameter())
-# shapeObject_.set_circumference(2)
-# print(shapeObject_.get_circumference())
