@@ -18,4 +18,8 @@ def test_square(object):
 
 def test_diameter(object):
     object.set_diameter(7)
-    assert object.get_diameter() == 4
+    assert object.get_diameter() == 7
+
+def test_circumference(object):
+    object.set_diameter(7)
+    assert object.get_circumference() == 10.99
