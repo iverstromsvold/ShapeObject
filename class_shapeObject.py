@@ -26,7 +26,9 @@ class ShapeObject:
         self.square = self.height ** 2
         return self.square
 
-    #def get_
+    def get_cubeArea(self):
+        cubeArea = self.square * 6
+        return cubeArea
 
     def get_area(self):
         area = self.width * self.height

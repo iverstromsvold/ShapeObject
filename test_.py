@@ -26,3 +26,7 @@ def test_circumference(object):
 
 def test_area(object):
     assert object.get_area() == 1376
+
+def test_cubedArea(object):
+    #object.get_square()
+    assert object.get_cubeArea() == 11094
