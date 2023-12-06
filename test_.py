@@ -30,3 +30,7 @@ def test_area(object):
 def test_cubedArea(object):
     #object.get_square()
     assert object.get_cubeArea() == 11094
+
+def test_cube(object):
+    assert object.get_cube() == 79507
+

@@ -5,6 +5,7 @@ class ShapeObject:
         # self._diameter = diameter
         # self.get_circ_diameter = diameter + circumference
         self.square = height ** 2
+        self.cube = height ** 3
 
     def get_height(self):
         return self.height
@@ -33,6 +34,10 @@ class ShapeObject:
     def get_area(self):
         area = self.width * self.height
         return area
+
+    def get_cube(self):
+        self.cube = self.height ** 3
+        return self.cube
 
     def set_diameter(self, x):
         self._diameter = x
