@@ -26,8 +26,11 @@ class ShapeObject:
         self.square = self.height ** 2
         return self.square
 
-    #def get_area(self):
-    #    self.area = self.width
+    #def get_
+
+    def get_area(self):
+        area = self.width * self.height
+        return area
 
     def set_diameter(self, x):
         self._diameter = x

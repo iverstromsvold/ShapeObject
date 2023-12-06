@@ -23,3 +23,6 @@ def test_diameter(object):
 def test_circumference(object):
     object.set_diameter(7)
     assert object.get_circumference() == 10.99
+
+def test_area(object):
+    assert object.get_area() == 1376
